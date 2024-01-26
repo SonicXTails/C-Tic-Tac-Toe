@@ -1,0 +1,60 @@
+﻿<Window x:Class="Tic_Tac_Toe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tic_Tac_Toe"
+        mc:Ignorable="d"
+                Title="MainWindow" Height="379" Width="296">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="_1" Content="" HorizontalAlignment="Left" Margin="34,47,0,0"   VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_2" Content="" HorizontalAlignment="Left" Margin="115,47,0,0"  VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_3" Content="" HorizontalAlignment="Left" Margin="195,47,0,0"  VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_4" Content="" HorizontalAlignment="Left" Margin="34,119,0,0"  VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_5" Content="" HorizontalAlignment="Left" Margin="115,119,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_6" Content="" HorizontalAlignment="Left" Margin="195,119,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_7" Content="" HorizontalAlignment="Left" Margin="34,197,0,0"  VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_8" Content="" HorizontalAlignment="Left" Margin="115,197,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="_9" Content="" HorizontalAlignment="Left" Margin="195,197,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="_1_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2elZuaL5ITI.jpg"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:Name="Reset_Button" Content="Новая игра" HorizontalAlignment="Left" Margin="59,273,0,0" VerticalAlignment="Top" Height="32" Width="161" Click="Reset_Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="89,10,0,0" TextWrapping="Wrap" Text="Крестики нолики" VerticalAlignment="Top" Width="101" TextChanged="TextBox_TextChanged"/>
+    </Grid>
+</Window>
+
